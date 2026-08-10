@@ -2,11 +2,10 @@
   "name": "constellab",
   "description": "Constellab plugins for Claude Code — MCP tools and the skills that drive them",
   "owner": { "name": "Gencovery", "email": "support@gencovery.com" },
-  "metadata": { "pluginRoot": "./plugins" },
   "plugins": [
     {
       "name": "datalab",
-      "source": "datalab",
+      "source": "./plugins/datalab",
       "description": "Diagnose a Constellab cloud data lab that fails to start"
     }
   ]
