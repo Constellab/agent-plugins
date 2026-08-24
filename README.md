@@ -3,16 +3,17 @@
 Add the marketplace once, then install the plugins you need:
 
     /plugin marketplace add Constellab/agent-plugins
-    /plugin install datalab@constellab
+    /plugin install space@constellab
     /plugin install community@constellab
 
 ## Plugins
 
-### `datalab` — Constellab data lab diagnosis
+### `space` — Constellab Space
 
-Diagnoses a Constellab cloud data lab that fails to start, over the Space API's MCP tools.
-The `diagnose-lab-startup` skill walks the six layers a lab start passes through and names
-the one it is blocked at, so you don't read logs from layers that never ran.
+Works with your Constellab Spaces over the Space API's MCP tools. The `diagnose-lab-startup`
+skill diagnoses a cloud data lab that fails to start: it walks the six layers a lab start
+passes through and names the one it is blocked at, so you don't read logs from layers that
+never ran.
 
 Configuration: **Space API URL** — the base URL of your Constellab Space API, without a
 trailing slash. Keep the default unless you use a dedicated or on-premise instance.

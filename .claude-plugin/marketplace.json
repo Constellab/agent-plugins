@@ -12,11 +12,6 @@
       "description": "Search and read the Constellab community documentation"
     },
     {
-      "name": "datalab",
-      "source": "./plugins/datalab",
-      "description": "Diagnose a Constellab cloud data lab that fails to start"
-    },
-    {
       "name": "space",
       "source": "./plugins/space",
       "description": "Work with your Constellab Spaces over the Space API's MCP tools"
