@@ -9,7 +9,7 @@
     {
       "name": "community",
       "source": "./plugins/community",
-      "description": "Search and read the Constellab community documentation"
+      "description": "Search and read the Constellab community documentation, over the Community API's MCP tools"
     },
     {
       "name": "space",
