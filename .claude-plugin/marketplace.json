@@ -1,17 +1,25 @@
 {
   "name": "constellab",
   "description": "Constellab plugins for Claude Code — MCP tools and the skills that drive them",
-  "owner": { "name": "Gencovery", "email": "support@gencovery.com" },
+  "owner": {
+    "name": "Gencovery",
+    "email": "support@gencovery.com"
+  },
   "plugins": [
+    {
+      "name": "community",
+      "source": "./plugins/community",
+      "description": "Search and read the Constellab community documentation"
+    },
     {
       "name": "datalab",
       "source": "./plugins/datalab",
       "description": "Diagnose a Constellab cloud data lab that fails to start"
     },
     {
-      "name": "community",
-      "source": "./plugins/community",
-      "description": "Search and read the Constellab community documentation"
+      "name": "space",
+      "source": "./plugins/space",
+      "description": "Work with your Constellab Spaces over the Space API's MCP tools"
     }
   ]
 }
