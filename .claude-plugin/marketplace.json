@@ -15,6 +15,11 @@
       "name": "space",
       "source": "./plugins/space",
       "description": "Work with your Constellab Spaces over the Space API's MCP tools"
+    },
+    {
+      "name": "space-2",
+      "source": "./plugins/space-2",
+      "description": "Test plugin: Constellab Space MCP tools pinned to the preprod API URL"
     }
   ]
 }
